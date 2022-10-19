@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -9,9 +9,10 @@ body {
 }
 
 header {
-  /* padding: 30px; */
+  padding-top: 30px;
   text-align: center;
   background: white;
+  border-radius: 10px;
 }
 
 h5 {
@@ -24,6 +25,7 @@ h5 {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  border-radius: 5px;
 }
 
 .topnav img {
@@ -46,19 +48,18 @@ h5 {
   color: black;
 }
 
-.leftcolumn {
+article {
   float: left;
   width: 60%;
-  /* padding-left: 50px; */
 }
 
-.rightcolumn {
+aside {
   float: left;
   width: 40%;
-  /* padding: 202px 20px 20px 20px; */
+  padding-left: 50px;
 }
 
-.rightcolumn img {
+aside img {
   border-radius: 5px;
   box-shadow: 4px 5px 5px 1px #666666;
 }
@@ -67,7 +68,7 @@ h5 {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 
 .row:after {
@@ -81,6 +82,7 @@ footer {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
